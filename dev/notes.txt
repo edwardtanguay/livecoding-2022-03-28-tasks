@@ -22,6 +22,7 @@
 	- x button to add new row
 		- x first at begining
 		- x the at end
-	- .. also add button that edits the row
-		- .. add button
+	- .. add buttons for existing rows at beginning
+	-  also add button that edits the row
+		-  add button
 		- add event on button to edit cells
