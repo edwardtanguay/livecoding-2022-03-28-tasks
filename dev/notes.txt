@@ -1,7 +1,14 @@
-- .. Make page where user can click a button that changes font family, font size, and color of the paragraph text
+- x Make page where user can click a button that changes font family, font size, and color of the paragraph text
 	- x make main.js
 	- x get button as variable
 	- x attach event to button
 	- x in event, change font family to courier
 	- x font-size bigger
-	- .. color to red
+	- x color to red
+
+- .. Make a page with a form that has First Name and Last Name, when button is clicked, first and last name are displayed on page
+	- x make form with button
+	- x display p element
+	- x js: all elements in variables
+	- x event on button
+	- display first/last name
