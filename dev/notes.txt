@@ -39,5 +39,6 @@
 	- x  create new directory for this project
 	- x in images directory, three photos
 	- x make button and photo area
-	- .. javascript object with images
-	- add variables, add event
+	- x javascript object with images
+	- x add variables, add event
+	- refactor with array of photo data items
