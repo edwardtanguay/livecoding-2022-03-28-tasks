@@ -6,9 +6,14 @@
 	- x font-size bigger
 	- x color to red
 
-- .. Make a page with a form that has First Name and Last Name, when button is clicked, first and last name are displayed on page
+- x Make a page with a form that has First Name and Last Name, when button is clicked, first and last name are displayed on page
 	- x make form with button
 	- x display p element
 	- x js: all elements in variables
 	- x event on button
-	- display first/last name
+	- x display first/last name
+
+- .. Make a page where when user clicks in input field, it changes the background of a paragraph
+	- x make input field and paragraph
+	- x two variables for both input and p
+	- .. make event to change background
