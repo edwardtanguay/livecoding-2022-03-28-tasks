@@ -1,0 +1,7 @@
+- .. Make page where user can click a button that changes font family, font size, and color of the paragraph text
+	- x make main.js
+	- x get button as variable
+	- .. attach event to button
+	- in event, change font family to courier
+		- font-size bigger
+		- color to red
