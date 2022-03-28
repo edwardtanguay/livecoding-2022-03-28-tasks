@@ -27,7 +27,7 @@
 		- x add button
 		- x add event on button to edit cells
 
-- .. Make a dropdown control with numerous entries, make a button which removes the currently selected entry - hint: x.remove(x.selectedIndex)
+- x Make a dropdown control with numerous entries, make a button which removes the currently selected entry - hint: x.remove(x.selectedIndex)
 	- x make a dropdown with 5 entries: colors
 	- x make button: Delete Color
 	- x create js variables
@@ -35,3 +35,9 @@
 	- x add button and input field to add an element on end
 		- x test: click add button, display new color
 		
+- .. Create a page that has a button which displays a random photo
+	- x  create new directory for this project
+	- x in images directory, three photos
+	- x make button and photo area
+	- .. javascript object with images
+	- add variables, add event
