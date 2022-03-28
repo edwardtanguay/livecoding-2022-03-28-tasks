@@ -18,11 +18,11 @@
 	- x two variables for both input and p
 	- x  make event to change background
 
-- .. Make a page with a button that adds a row to a table, each row has an edit button which allows you to change the value of each cell in the row - hint: insertRow, insertCell
+- x Make a page with a button that adds a row to a table, each row has an edit button which allows you to change the value of each cell in the row - hint: insertRow, insertCell
 	- x button to add new row
 		- x first at begining
 		- x the at end
-	- .. add buttons for existing rows at beginning
-	-  also add button that edits the row
-		-  add button
-		- add event on button to edit cells
+	- x add buttons for existing rows at beginning
+	- x also add button that edits the row
+		- x add button
+		- x add event on button to edit cells

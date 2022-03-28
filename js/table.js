@@ -1,15 +1,7 @@
 const btnAddRow = document.querySelector('.btnAddRow');
 const mainTableElem = document.querySelector('.main');
-const btnEditElems = document.querySelectorAll('.btnEdit');
 
-btnEditElems.forEach(btnEditElem => {
-	btnEditElem.addEventListener('click', () => {
-		const firstNameElem = btnEditElem.parentElement.parentElement.children[0];
-		const lastNameElem = btnEditElem.parentElement.parentElement.children[1];
-		firstNameElem.innerHTML = `<input value="${firstNameElem.innerText}"/>`;
-		lastNameElem.innerHTML = `<input value="${lastNameElem.innerText}"/>`;
-	});
-});
+attachEvents();
 
 btnAddRow.addEventListener('click', () => {
 	// alert('test');
@@ -18,4 +10,22 @@ btnAddRow.addEventListener('click', () => {
 	cellFirstName.innerText = 'Robert';
 	const cellLastName = row.insertCell(1);
 	cellLastName.innerText = 'Angelton';
+	const cellButton = row.insertCell(2);
+	cellButton.innerHTML = '<button class="btnEdit">Edit</button>';
+	attachEvents();
 });
+
+function attachEvents() {
+	const btnEditElems = document.querySelectorAll('.btnEdit');
+
+	btnEditElems.forEach(btnEditElem => {
+		btnEditElem.addEventListener('click', () => {
+			const firstNameElem = btnEditElem.parentElement.parentElement.children[0];
+			const lastNameElem = btnEditElem.parentElement.parentElement.children[1];
+			firstNameElem.innerHTML = `<input value="${firstNameElem.innerText}"/>`;
+			lastNameElem.innerHTML = `<input value="${lastNameElem.innerText}"/>`;
+		});
+		console.log(btnEditElem)
+	});
+
+}
