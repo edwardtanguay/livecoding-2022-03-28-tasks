@@ -13,7 +13,15 @@
 	- x event on button
 	- x display first/last name
 
-- .. Make a page where when user clicks in input field, it changes the background of a paragraph
+- x Make a page where when user clicks in input field, it changes the background of a paragraph
 	- x make input field and paragraph
 	- x two variables for both input and p
-	- .. make event to change background
+	- x  make event to change background
+
+- .. Make a page with a button that adds a row to a table, each row has an edit button which allows you to change the value of each cell in the row - hint: insertRow, insertCell
+	- x button to add new row
+		- x first at begining
+		- x the at end
+	- .. also add button that edits the row
+		- .. add button
+		- add event on button to edit cells
