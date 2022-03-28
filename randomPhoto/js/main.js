@@ -22,7 +22,7 @@ const photos = [
 btnShowPhotoElem.addEventListener('click', () => {
 	const index = Math.floor(Math.random() * 3);
 	const photo = photos[index];
-	contentElem.innerHTML = `<div style="height:500px;position:relative;background-image:url('images/${photo.fileName}')">
-	<div style="position:absolute: top:100px; left:10" class="title">${photo.title}</div>
+	contentElem.innerHTML = `<div style="height:500px;position:relative;background:url('images/${photo.fileName}') no-repeat center center/cover">
+	<div style="position:absolute; top:10px; left:10px" class="title">${photo.title}</div>
 	</div>`;
 });
